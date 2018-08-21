@@ -20,7 +20,7 @@ def oxford_comma(array)
     end
     first_array.join(", ")
     second_array.join(", and ")
-    first_array + second_array
+    return "#{first_array}, #{second_array}"
   end
 end
 
