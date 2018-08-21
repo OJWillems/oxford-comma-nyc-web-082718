@@ -18,9 +18,7 @@ def oxford_comma(array)
         x += 1
       end
     end
-    first_array.join(", ")
-    second_array.join(", and ")
-    return "#{first_array}, #{second_array}"
+    return "#{first_array.join(", "}, #{second_array.join(", and "}"
   end
 end
 
