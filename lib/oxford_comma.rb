@@ -17,6 +17,7 @@ def oxford_comma(array)
         second_array.push(array[x])
         x += 1
       end
+    end
     first_array.join(", ")
     second_array.join(", and ")
     first_array + second_array
