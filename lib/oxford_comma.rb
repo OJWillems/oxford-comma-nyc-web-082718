@@ -6,13 +6,15 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else
-    new_array = []
+    first_array = []
     x = 0
     while x < array.size - 2
-      new_array.push(array[x])
+      first_array.push(array[x])
       x += 1
     end
     new_array.join(", ")
+    second_array = []
     while x >= array.size - 2
+      second_array.push
   end
 end
