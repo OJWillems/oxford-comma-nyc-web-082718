@@ -14,9 +14,10 @@ def oxford_comma(array)
         array.insert (x + 1, ", and ")
       end
     end
+    array.join
   end
 end
-    array.join
+    
     # first_array = []
     # second_array = []
     # x = 0
