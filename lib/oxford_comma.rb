@@ -12,9 +12,13 @@ def oxford_comma(array)
       first_array.push(array[x])
       x += 1
     end
-    new_array.join(", ")
+    first_array.join(", ")
     second_array = []
     while x >= array.size - 2
-      second_array.push
+      second_array.push(array[x])
+      x += 1
+    end
+    second_array.join(", and ")
+    return first_array + second_array
   end
 end
