@@ -19,6 +19,6 @@ def oxford_comma(array)
       end
     first_array.join(", ")
     second_array.join(", and ")
-    return first_array + second_array
+    first_array + second_array
   end
 end
