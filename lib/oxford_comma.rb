@@ -8,10 +8,11 @@ def oxford_comma(array)
   else
     new_array = []
     x = 0
-    while x < array.size
+    while x < array.size - 2
       new_array.push(array[x])
       x += 1
     end
     new_array.join(", ")
+    while x >= array.size - 2
   end
 end
