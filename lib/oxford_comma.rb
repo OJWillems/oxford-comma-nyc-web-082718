@@ -6,17 +6,19 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else
-    x = 0
-    while x < array.size
-      if x < array.size - 2
-        array.insert(x + 1, ", ")
-      else
-        array.insert (x + 1, ", and ")
-      end
-    end
-    array.join
-  end
-end
+    
+    
+#     x = 0
+#     while x < array.size
+#       if x < array.size - 2
+#         array.insert(x + 1, ", ")
+#       else
+#         array.insert (x + 1, ", and ")
+#       end
+#     end
+#     array.join
+#   end
+# end
     
     # first_array = []
     # second_array = []
